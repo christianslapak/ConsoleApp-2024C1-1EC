@@ -12,6 +12,8 @@ namespace ConsoleApp_2024C1_1EC
         public string Apellido { get; set; }
         public string Nombre { get; set; }
 
+        public bool ResponsableInscripto { get; set; }
+
         public string MostrarDatos()
         {
             string texto = "";
